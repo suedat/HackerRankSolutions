@@ -36,12 +36,10 @@ class Result
 
         int totalCount = arr.Count;
 
-        // Calculate ratios using floating-point division
         double positiveRatio = (double)positiveCount / totalCount;
         double negativeRatio = (double)negativeCount / totalCount;
         double zeroRatio = (double)zeroCount / totalCount;
 
-        // Print ratios with 6 decimal places
         Console.WriteLine($"{positiveRatio:F6}");
         Console.WriteLine($"{negativeRatio:F6}");
         Console.WriteLine($"{zeroRatio:F6}");
